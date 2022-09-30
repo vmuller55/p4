@@ -366,9 +366,10 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 20px;
+        right: 150px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
+        list-style-type: none;
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
@@ -775,7 +776,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
@@ -925,14 +926,11 @@ h4 {
     }
     .nav > li {
         margin-top: 0;
-        border-bottom: 1px solid rgba(0, 0, 0, .1);
-        background: rgba(0, 0, 0, .05);
         text-align: left;
         padding-left: 15px;
         width: 100%;
-    }
-    .nav > li:hover {
-        background: rgba(0, 0, 0, .08);
+        list-style-type: none;
+        text-decoration: none;
     }
     .dropdown .dropdown a .caret {
         float: none;
