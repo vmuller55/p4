@@ -373,7 +373,7 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 150px;
+        right: 20px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
         list-style-type: none;
@@ -848,6 +848,16 @@ h4 {
     padding-top: 5px;
 }
 
+.col-sm-4 a{
+    width: 48px;
+}
+
+.citation p{ 
+        font-size: 25px;
+        margin-left: 2%;
+        margin-right: 2%;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -927,7 +937,7 @@ h4 {
     }
     .navbar .nav {
         padding-top: 0;
-        border-top: 1px solid rgba(0, 0, 0, .2);
+        
         float: none!important;
     }
     .navbar.row {
@@ -939,11 +949,11 @@ h4 {
         transform: none;
         -webkit-transform: none;
         -ms-transform: none;
+        right: 20px;
     }
     .nav > li {
         margin-top: 0;
         text-align: left;
-        padding-left: 15px;
         width: 100%;
         list-style-type: none;
         text-decoration: none;
@@ -955,12 +965,14 @@ h4 {
         border-bottom-color: transparent;
         border-right-color: transparent;
         border-left-color: transparent;
+        color: green;
     }
     #hero-bloc .navbar .nav {
         background: rgba(0, 0, 0, .8);
     }
     #hero-bloc .navbar .nav a {
         color: rgba(255, 255, 255, .6);
+        color: green;
     }
     .hero {
         padding: 50px 0;
@@ -985,7 +997,7 @@ h4 {
     }
     .nav-invert .navbar-toggle {
         float: left;
-        margin-left: 10px;
+        margin-right: 10px;
     }
     .bloc {
         padding-left: 0;
@@ -1040,6 +1052,26 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .container, .bloc-lg{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center; 
+          
+    }
+
+    .imageCenter{
+        width: 100%;
+    }
+    .portfolio-row {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .col-sm-6{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
 }
 
 @media (max-width: 400px) {
